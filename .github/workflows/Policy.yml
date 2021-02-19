@@ -15,6 +15,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/organization/project-name
-            azure-pipeline-name: 'My Pipeline'
+            azure-devops-project-url: https://dev.azure.com/markngeno/DemoAz4
+            azure-pipeline-name: 'SmartHotel_Petchecker-Web'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
