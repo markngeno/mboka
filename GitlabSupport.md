@@ -30,6 +30,18 @@
 
 ----
 
+**Possible causes of web application slowness.**
+
+*  Web server response 
+
+*  Load
+
+**Troubleshooting process
+
+*
+
+
+
 # Question 3
 
 ----
