@@ -36,7 +36,7 @@
 
 *  Load
 
-**Troubleshooting process
+**Troubleshooting process.**
 
 *
 
