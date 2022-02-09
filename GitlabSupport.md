@@ -26,3 +26,13 @@ awk -F: '{ print $1,":"$6}' /etc/passwd |md5sum  > /var/log/current_users.txt
 
 ----
 
+# Question 2 
+
+----
+
+# question 3
+
+----
+' git init'
+
+'git add . '
