@@ -1,4 +1,4 @@
-#Bash Script to print usernames of all linux users
+##Bash Script to print usernames of all linux users
 
 ----
 
