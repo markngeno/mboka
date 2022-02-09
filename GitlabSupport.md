@@ -34,6 +34,10 @@
 
 *  Load
 
+*  Poor database design
+
+* Unoptimized images 
+
 **Troubleshooting process.**
 
 *
