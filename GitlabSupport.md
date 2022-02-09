@@ -43,6 +43,30 @@ Below are sequence of Git commands that could have resulted in the commit graph
 
  git commit -m "First Commit" 
  
+ git add .
+ 
+ git commit -m "second Commit"
+ 
+ git checkout -b feature-branch
+ 
+ git add . 
+ 
+ git commit -m "awesome feature"
+ 
+ git checkout main 
+ 
+ git add .
+
+ git add .
+
+ git commit -m "third commit"
+
+ git merge feature-branch -m "Merge"
+
+ git add . 
+
+ git commit -m "fourth commit"
+ 
  ```
 
 
