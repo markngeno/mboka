@@ -68,5 +68,24 @@ Below are sequence of Git commands that could have resulted in the commit graph
  git commit -m "fourth commit"
  
  ```
+ 
+ ----
+ 
+ # Question 4
+ 
+ ----
+ 
+ ## Using Git to implement a new feature/change without affecting the main branch
+ 
+ This article seeks to provide steps neccesary to take so as to implement a new feature or change without affecting the main branch
+ 
+ Below are the step by step guide on how you can achieve this. 
+ 
+ - The first step is to create a branch as this is neccesary so as not to affect the main branch or code. Use the git command ` git branch new-feature` to create a new branch. 
+ 
+ - The Second step is to switch to the newly created branch. This is important as any changed made on this branch will not affect the main branch. Use 
+   the command ` git checkout new-feature` to switch to the *new-feature* branch. Alternatively you can use the command ` git checkout -b new-feature` to create a new branch *new-feature* and switch from the *master* branch to the *new-feature* branch. 
+ 
+ 
 
 
