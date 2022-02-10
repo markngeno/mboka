@@ -22,6 +22,17 @@
 
 `0 * * * * awk -F: '{ print $1":",$6}' /etc/passwd |md5sum > /var/log/current_users.txt` 
 
+### MD5 sum changes check 
+
+```
+if [ "$(<current_users.txt md5sum)" != "$(<current_users_copy.txt md5sum)"]; then
+echo "$date changes occured" && awk -F: '{ print $1":",$6}' /etc/passwd |md5sum > /var/log/user_changes.txt
+else
+awk -F: '{ print $1":",$6}' /etc/passwd |md5sum > /var/log/current_users.txt
+fi
+
+```
+
 ----
 
 # Question 2 
